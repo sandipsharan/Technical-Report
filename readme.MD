@@ -9,10 +9,7 @@ https://www.mathworks.com/products/matlab/student.html
 ````
 While installation of the software, check the required toolboxes for installation. The most important tool is Simulink
 
-* Then download the given zip file
-````
-119340196_proj1.zip
-````
+* Then download the required files either by cloning it to local folder or download it as zip
 
 ## _2. To run the code_
 
