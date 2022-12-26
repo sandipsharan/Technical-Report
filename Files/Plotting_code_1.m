@@ -1,0 +1,17 @@
+clear; clc; close all;
+load('Plot data.mat');
+plot(time_graph, Theta_graph);
+xlabel('Time in seconds');
+ylabel('Spacecraft error in attitude and position');
+hold on;
+load('Plot data.mat');
+plot(time_graph, X_graph);
+xlabel('Time in seconds');
+ylabel('Spacecraft error in attitude and position');
+% legend('$X_{desired}-X$', 'Interpreter', 'latex');
+hold on;
+load('Plot data.mat');
+plot(time_graph, Y_graph);
+xlabel('Time in seconds');
+ylabel('Spacecraft error in attitude and position');
+legend('$\theta$', '$X_{desired}-X$', '$Y_{desired}-Y$', 'Interpreter', 'latex');
